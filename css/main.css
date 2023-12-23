@@ -1,0 +1,63 @@
+#logo {
+    margin-right: 100px;
+}
+
+#navColor {
+    background-color: #2d58b5;
+}
+
+.nav-item {
+    margin-right: 25px;
+
+}
+
+#navMember {
+    margin-right: 80px;
+}
+
+#navMember a {
+    margin: 0px 5px;
+    text-decoration: none;
+    color: white;
+}
+
+#navName>a {
+    color: white;
+}
+
+/* 호버 시 드롭다운 노출 */
+.menu:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.menu>li {
+    position: relative;
+    float: left;
+    margin-right: 5px;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 0 15px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.menu>li:hover .depth_1 {
+    display: block;
+}
+
+.menu .depth_1 {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.menu .depth_1 a {
+    display: block;
+    padding: 5px;
+}
