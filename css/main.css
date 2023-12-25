@@ -45,6 +45,10 @@
     line-height: 40px;
 }
 
+.menu>li>a:hover {
+    text-decoration: underline;
+}
+
 .menu>li:hover .depth_1 {
     display: block;
 }
@@ -60,4 +64,48 @@
 .menu .depth_1 a {
     display: block;
     padding: 5px;
+}
+
+#carouselText>h1 {
+    font-weight: 900;
+}
+
+#carouselImg {
+    height: 450px;
+}
+
+#searchBox {
+    background-color: #2d58b5;
+    height: 56px;
+}
+
+/* 검색창 안에 돋보기 넣기 */
+#innerSearchBox {
+    position: relative;
+    width: 300px;
+}
+
+#inputBox {
+    width: 100%;
+}
+
+#inputBox::placeholder {
+    text-align: center;
+}
+
+#icon {
+    position: absolute;
+    width: 27px;
+    top: 10px;
+    right: 12px;
+    margin: 0;
+}
+
+/* 메인 화면 */
+#mainStyle {
+    width: 80%;
+    margin: 30px auto;
+}
+#mainTitle {
+    text-align: center;
 }
