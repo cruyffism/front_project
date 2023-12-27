@@ -233,7 +233,7 @@ header {
 /* footer */
 footer {
     width: 100%;
-    height: 250px;
+    /* height: 250px; */
 }
 
 .footerSection {
@@ -245,11 +245,56 @@ footer {
     height: 100px;
 }
 
+.footerSection li{
+    float: left;
+    width: 305px;
+    list-style: none;
+}
+
+.company_call{
+    display: inline-block;
+    padding: 0 0 0 68px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 36px;
+}
+
 .footerSection1 {
     list-style: none;
     float: left;
     color:white;
     margin: 0 20px;
+}
+
+
+.link_select_wrap select{
+    position: relative;
+    background: #313842;
+    vertical-align: middle;
+    width: 240px;
+    margin-bottom: 0px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    padding: 9px 0 8px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: -1px;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.btn_go{
+    display: inline-block;
+    background: #303740;
+    color: #fff;
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid rgba(255,255,255,0.5);
+    cursor: pointer;
+    height: 34px;
+    vertical-align: middle;
 }
 
 .footerSection2 {
