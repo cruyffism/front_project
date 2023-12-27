@@ -109,17 +109,35 @@
                     <h2 class="loginNotice">로그인</h2>
                 </div>
                 <div id=>
-                    <h6 class="loginNotice">분당서울대학교병원 통합 로그인 페이지입니다.</h6>
+                    <h5 class="loginNotice">분당서울대학교병원 통합 로그인 페이지입니다.</h5>
                 </div>
 
                 <div id="loginWrap">
-                    <div>
-                        <input type="text" placeholder="아이디를 입력해주세요." id="login_inputID" maxlength="50"
-                            data-v-4a9ba3e0="">
+                    <div id="leftBox">
+                        <div>
+                            <input type="text" placeholder="아이디를 입력해주세요." id="login_inputID">
+                        </div>
+                        <div>
+                            <input type="password" placeholder="비밀번호를 입력해주세요." id="login_inputPW">
+                        </div>
+                        <div>
+                            <input type="button" id="loginBt" value="로그인">
+                        </div>
+                        <div id="bts">
+                            <input type="button" id="naverBt" value="네이버 계정 로그인">
+                            <input type="button" id="kakaoBt" value="카카오 계정 로그인">
+                        </div>
                     </div>
-                    <div>
-                        <input type="password" placeholder="비밀번호를 입력해주세요." id="login_inputPW" maxlength="50"
-                            data-v-4a9ba3e0="">
+
+                    <div id="rightBox">
+                        <div>
+                            <p>아이디 또는 비밀번호를 잃어버리셨나요?</p>
+                        </div>
+                        <div>
+                            <input type="button" id="findID" value="아이디 찾기">
+                            <input type="button" id="findPW" value="비밀번호 찾기">
+                        </div>
+
                     </div>
                 </div>
             </main>

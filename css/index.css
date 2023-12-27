@@ -40,24 +40,24 @@
 }
 
 .doctor {
-    background: url(/images/doctor.png) center center/35% no-repeat;
+    background: url(../images/doctor.png) center center/35% no-repeat;
 }
 
 
 .reservationInquiry {
-    background: url(/images/Reservation_inquiry.png) center center/35% no-repeat;
+    background: url(../images/Reservation_inquiry.png) center center/35% no-repeat;
 }
 
 .medicalAppointment {
-    background: url(/images/medical_appointment.png) center center/35% no-repeat;
+    background: url(../images/medical_appointment.png) center center/35% no-repeat;
 }
 
 .TelephoneConsultation {
-    background: url(/images/Telephone_consultation.png) center center/35% no-repeat;
+    background: url(../images/Telephone_consultation.png) center center/35% no-repeat;
 }
 
 .myChart {
-    background: url(/images/my_chart.png) center center/35% no-repeat;
+    background: url(../images/my_chart.png) center center/35% no-repeat;
 }
 
 #mainServiceButton {
