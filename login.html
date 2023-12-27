@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link href="css/login.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
@@ -113,24 +114,25 @@
 
                 <div id="loginWrap">
                     <div>
-                        <input type="text" placeholder="아이디를 입력해주세요." id="login_inputID" maxlength="50" data-v-4a9ba3e0="">
+                        <input type="text" placeholder="아이디를 입력해주세요." id="login_inputID" maxlength="50"
+                            data-v-4a9ba3e0="">
                     </div>
                     <div>
-                        <input type="password" placeholder="비밀번호를 입력해주세요." id="login_inputPW" maxlength="50" data-v-4a9ba3e0="">
-                    </div>                   
+                        <input type="password" placeholder="비밀번호를 입력해주세요." id="login_inputPW" maxlength="50"
+                            data-v-4a9ba3e0="">
+                    </div>
                 </div>
             </main>
 
             <!----------------------- 풋터----------------------- -->
             <footer>
                 <div class="footerSection">
-                    <ul>
+                    <ul class="footer_inner">
                         <li>
                             <div class="company_call">대표전화 : 1588-3369</div>
                         </li>
                         <li>
                             <div class="link_select_wrap">
-                                <!-- <select>특성화센터/진료과</select> -->
                                 <select title="특성화센터/진료과" name="link">
                                     <option value="">특성화센터/진료과</option>
                                     <option class="op_cor1" value="https://cancer.snubh.org/index.do">암센터</option>
@@ -192,8 +194,45 @@
                     </ul>
                 </div>
                 <div class="footerSection2">
-                    <ul>
-                        <li>개인정보처리방침</li>
+                    <ul class="footer_inner2">
+                        <li class="li_1">
+                            <ul class="footer_top_menu">
+                                <li><a>개인정보처리방침&nbsp;|&nbsp;</a></li>
+                                <li><a>환자권리장전&nbsp;|&nbsp;</a></li>
+                                <li><a>고객현장&nbsp;|&nbsp;</a></li>
+                                <li><a>데이터 심의위원회&nbsp;|&nbsp;</a></li>
+                                <li><a>FAQ&nbsp;|&nbsp;</a></li>
+                                <li><a>AUO</a></li>
+                            </ul>
+                            <div class="footer_address">
+                                <span class="com_address">13620 경기도 성남시 분당구 구미로173번길 82</span>
+                            </div>
+                            <div class="copyright">Copyright © 분당서울대학교병원. All Rights Reserved.</div>
+                        </li>
+                        <li class="li_2">
+                            <div class="footer_mark_wrap">
+                                <ul class="footer_mark_list">
+                                    <li>
+                                        <img src="images/facebook.png">
+                                    </li>
+                                    <li>
+                                        <img src="images/instagram.png">
+                                    </li>
+                                    <li>
+                                        <img src="images/youtube.png">
+                                    </li>
+                                    <li class="mark1">
+                                        <span>과학기술정보통신부<br>WEB ACCESSIBILITY</span>
+                                    </li>
+                                    <li class="mark2">
+                                        <span>보건복지부<br> 의료기관 인증</span>
+                                    </li>
+                                    <li class="mark3">
+                                        <span>미국외 세계최초<br>EMR 7단계 인증(2010년)</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </footer>
