@@ -73,6 +73,7 @@ header {
 
 .menu>li:hover .depth_1 {
     display: block;
+    width:180px;
 }
 
 .menu .depth_1 {
@@ -163,7 +164,7 @@ footer {
     font-weight: 700;
     color: #fff;
     line-height: 60px;
-    background: url(/images/call.png) no-repeat 0 center;
+    background: url(../images/call.png) no-repeat 0 center;
 
 }
 
@@ -293,18 +294,18 @@ footer {
 }
 
 .mark1{
-    background-image: url(/images/mark1.png);
+    background-image: url(../images/mark1.png);
     padding-left: 50px;
 }
 
 .mark2{
-    background-image: url(/images/mark2.png);
+    background-image: url(../images/mark2.png);
     padding-left: 50px;
     margin-right: 24px;
 }
 
 .mark3{
-    background-image: url(/images/mark3.png);
+    background-image: url(../images/mark3.png);
     padding-left: 50px;
 }
 
