@@ -97,8 +97,9 @@ header {
 }
 
 #searchBox {
+    width: 100%;
     background-color: #2d58b5;
-    margin: 0 -1px;
+    margin: 0 0 1.5rem 0;
     height: 56px;
 }
 
@@ -167,24 +168,24 @@ header {
 }
 
 .doctor {
-    background: url(../images/doctor.png) center center/35% no-repeat;
+    background: url(/images/doctor.png) center center/35% no-repeat;
 }
 
 
 .reservationInquiry {
-    background: url(../images/Reservation_inquiry.png) center center/35% no-repeat;
+    background: url(/images/Reservation_inquiry.png) center center/35% no-repeat;
 }
 
 .medicalAppointment {
-    background: url(../images/medical_appointment.png) center center/35% no-repeat;
+    background: url(/images/medical_appointment.png) center center/35% no-repeat;
 }
 
 .TelephoneConsultation {
-    background: url(../images/Telephone_consultation.png) center center/35% no-repeat;
+    background: url(/images/Telephone_consultation.png) center center/35% no-repeat;
 }
 
 .myChart {
-    background: url(../images/my_chart.png) center center/35% no-repeat;
+    background: url(/images/my_chart.png) center center/35% no-repeat;
 }
 
 #mainServiceButton {
@@ -334,6 +335,7 @@ header {
 /*------------ footer-------------- */
 footer {
     width: 100%;
+    height: 250px;
 }
 
 .footerSection {
@@ -347,42 +349,48 @@ footer {
 
 .footerSection li {
     float: left;
-    width: 305px;
+    /* width: 300px; */
+    width: 25%;
     list-style: none;
+}
+
+.footer_inner {
+    list-style: none;
+    position: relative;
+    max-width: 1480px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .company_call {
+    padding: 0 0 0 50px;
     display: inline-block;
-    padding: 0 0 0 68px;
     font-size: 20px;
     font-weight: 700;
     color: #fff;
-    line-height: 36px;
+    line-height: 60px;
+    background: url(/images/call.png) no-repeat 0 center;
+
 }
 
-.footerSection1 {
-    list-style: none;
-    float: left;
-    color: white;
-    margin: 0 20px;
+.link_select_wrap {
+    line-height: 60px;
 }
-
 
 .link_select_wrap select {
     position: relative;
     background: #313842;
     vertical-align: middle;
-    width: 240px;
+    width: 200px;
     margin-bottom: 0px;
     display: inline-block;
     border: 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255,255,255,0.5);
     padding: 9px 0 8px;
     color: #fff;
     text-align: center;
     letter-spacing: -1px;
     font-size: 14px;
-    line-height: 1;
 }
 
 .btn_go {
@@ -395,11 +403,118 @@ footer {
     cursor: pointer;
     height: 34px;
     vertical-align: middle;
+    line-height: normal;
 }
 
 .footerSection2 {
-    padding: 28px 20px;
+    position: relative;
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
     background: #434C5B;
     height: 150px;
+}
 
+.footer_inner2 {
+    list-style: none;
+    position: relative;
+    max-width: 1480px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.li_1 {
+    float: left;
+    width: 30%;
+    margin: 20px 0 0 0;
+}
+
+.li_2 {
+    float: left;
+    width: 70%;
+    margin: 20px 0 0 0;
+}
+
+.footer_top_menu {
+    margin: 0;
+    padding: 0;
+}
+
+.footer_top_menu>li {
+    color: white;
+    list-style: none;
+    position: relative;
+    float: left;
+}
+
+.footer_top_menu>li>a {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 24px;
+    letter-spacing: -1px;
+}
+
+.footer_address span {
+    position: relative;
+    font-size: 12px;
+    line-height: 24px;
+    color: #c2c4c8;
+}
+
+.footer_address {
+    display: block;
+}
+
+.copyright {
+    display: block;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #c2c4c8;
+}
+
+.footer_mark_wrap {
+    position: relative;
+    padding-left: 30px;
+}
+
+.footer_mark_list li {
+    display: inline-block;
+    margin: 0 24px 4px 0;
+    text-align: left;
+    line-height: 22px;
+    font-size: 12px;
+    color: #c2c4c8;
+    letter-spacing: -2px;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    box-sizing: border-box;
+}
+
+.footer_mark_list img {
+    width: 80%;
+    height: 80%;
+}
+
+.mark1{
+    background-image: url(/images/mark1.png);
+    padding-left: 50px;
+}
+
+.mark2{
+    background-image: url(/images/mark2.png);
+    padding-left: 50px;
+    margin-right: 24px;
+}
+
+.mark3{
+    background-image: url(/images/mark3.png);
+    padding-left: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
 }
