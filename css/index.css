@@ -122,7 +122,7 @@ header {
 /* 메인 화면 */
 #mainStyle {
     width: 100%;
-    margin: 30px auto;
+    margin: 100px auto;
 }
 
 #mainTitle {
@@ -217,8 +217,49 @@ header {
     text-align: center;
     padding: 100px;
 }
+.Box {
+        width: 560px;
+        height: 270px;
+        margin: 0 40px;
+        border: 1px solid #ddd;
+        background: #fff;
+        border-radius: 10px;
+        padding-top: 35px;
+        text-align: center;
+        overflow: hidden;
+        display: inline-block;
+    }
 
 /* footer */
 footer {
+    width: 100%;
     height: 250px;
+}
+
+.footerSection {
+    position: relative;
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: #313842;
+    height: 100px;
+}
+
+.footerSection1 {
+    list-style: none;
+    float: left;
+    color:white;
+    margin: 0 20px;
+}
+
+.footerSection2 {
+    padding: 28px 20px;
+    background: #434C5B;
+    height: 150px;
+
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
 }
