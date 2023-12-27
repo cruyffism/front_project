@@ -1,23 +1,27 @@
 * {
-    margin: 0;  /* 마진 리셋 */
-    padding: 0; /* 패딩 리셋 */
-    box-sizing: border-box; /* 박스 영역은 테두리까지 */ 
+    margin: 0;
+    /* 마진 리셋 */
+    padding: 0;
+    /* 패딩 리셋 */
+    box-sizing: border-box;
+    /* 박스 영역은 테두리까지 */
 }
 
 #container {
-    margin: 0 auto; /* 화면 중앙에 배치 */
-    width: 1300px; /* 너비 */
+    margin: 0 auto;
+    /* 화면 중앙에 배치 */
+    width: 1300px;
+    /* 너비 */
 }
 
-/*헤더: 로고~ 검색창 */
+/*-------------------헤더: 로고~ 검색창------------------------ */
 
 header {
     width: 100%;
-    height: 100%;
 }
 
 #logo {
-    margin-right: 100px;  /*오른쪽 네브바와의 간격 조정*/
+    margin-right: 100px;
 }
 
 #navColor {
@@ -43,7 +47,8 @@ header {
     color: white;
 }
 
-.menu:after {  /* 호버 시 드롭다운 노출 */
+.menu:after {
+    /* 호버 시 드롭다운 노출 */
     display: block;
     content: '';
     clear: both;
@@ -97,7 +102,8 @@ header {
     height: 56px;
 }
 
-#innerSearchBox { /* 검색창 안에 돋보기 넣기 */
+#innerSearchBox {
+    /* 검색창 안에 돋보기 넣기 */
     position: relative;
     width: 300px;
 }
@@ -119,14 +125,19 @@ header {
     cursor: pointer;
 }
 
-/* 메인 화면 */
+/*---------------- main ------------------ */
 #mainStyle {
     width: 100%;
-    margin: 100px auto;
+    margin: 70px auto;
 }
 
 #mainTitle {
     text-align: center;
+}
+
+#mainTitle>h2 {
+    font-size: 40px;
+    font-weight: 700;
 }
 
 #mainServiceBox {
@@ -177,7 +188,7 @@ header {
 }
 
 #mainServiceButton {
-    margin: 0 auto;
+    margin: 0 16px;
     width: 100%;
     margin-top: 40px;
     overflow: hidden;
@@ -197,7 +208,7 @@ header {
     width: 300px;
     height: 90px;
     border-radius: 10px;
-    border: 1px solid black;
+    border: none;
     background-color: #2d58b5 !important;
     line-height: 90px;
     margin: 20px 50px;
@@ -206,9 +217,11 @@ header {
 .print {
     background: url(../images/print.png) center right/15% no-repeat;
 }
+
 .myVideo {
     background: url(../images/my_video.png) center right/15% no-repeat;
 }
+
 .payment {
     background: url(../images/payment.png) center right/15% no-repeat;
 }
@@ -217,23 +230,110 @@ header {
     text-align: center;
     padding: 100px;
 }
-.Box {
-        width: 560px;
-        height: 270px;
-        margin: 0 40px;
-        border: 1px solid #ddd;
-        background: #fff;
-        border-radius: 10px;
-        padding-top: 35px;
-        text-align: center;
-        overflow: hidden;
-        display: inline-block;
-    }
 
-/* footer */
+#mainTitle2>h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.arr span {
+    position: relative;
+}
+
+.arr span::after {
+    content: '';
+    width: 20px;
+    /* 사이즈 */
+    height: 20px;
+    /* 사이즈 */
+    border-top: 3px solid #121212;
+    /* 선 두께 */
+    border-right: 3px solid #121212;
+    /* 선 두께 */
+    display: inline-block;
+    transform: rotate(225deg);
+    /* 각도 */
+    position: absolute;
+    right: 220px;
+    top: 50px;
+}
+
+.arr2 span {
+    position: relative;
+}
+
+.arr2 span::after {
+    content: '';
+    width: 20px;
+    /* 사이즈 */
+    height: 20px;
+    /* 사이즈 */
+    border-top: 3px solid #121212;
+    /* 선 두께 */
+    border-right: 3px solid #121212;
+    /* 선 두께 */
+    display: inline-block;
+    transform: rotate(45deg);
+    /* 각도 */
+    position: absolute;
+    left: 220px;
+    top: 50px;
+}
+
+.Box {
+    width: 560px;
+    height: 270px;
+    margin: 0 40px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 10px;
+    padding-top: 35px;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.playBanner {
+    display: inline-flex;
+}
+
+.youtube1 {
+    display: block;
+    color: #444;
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+.youtube2 {
+    display: block;
+    color: #444;
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: right;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: #ddd;
+    margin: 30px;
+    border-radius: 50%;
+    border: #ddd;
+    display: inline-block;
+}
+
+/*------------ footer-------------- */
 footer {
     width: 100%;
-    /* height: 250px; */
 }
 
 .footerSection {
@@ -245,13 +345,13 @@ footer {
     height: 100px;
 }
 
-.footerSection li{
+.footerSection li {
     float: left;
     width: 305px;
     list-style: none;
 }
 
-.company_call{
+.company_call {
     display: inline-block;
     padding: 0 0 0 68px;
     font-size: 20px;
@@ -263,12 +363,12 @@ footer {
 .footerSection1 {
     list-style: none;
     float: left;
-    color:white;
+    color: white;
     margin: 0 20px;
 }
 
 
-.link_select_wrap select{
+.link_select_wrap select {
     position: relative;
     background: #313842;
     vertical-align: middle;
@@ -276,7 +376,7 @@ footer {
     margin-bottom: 0px;
     display: inline-block;
     border: 0;
-    border-bottom: 1px solid rgba(255,255,255,0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     padding: 9px 0 8px;
     color: #fff;
     text-align: center;
@@ -285,13 +385,13 @@ footer {
     line-height: 1;
 }
 
-.btn_go{
+.btn_go {
     display: inline-block;
     background: #303740;
     color: #fff;
     padding: 5px;
     font-size: 12px;
-    border: 1px solid rgba(255,255,255,0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     cursor: pointer;
     height: 34px;
     vertical-align: middle;
@@ -302,9 +402,4 @@ footer {
     background: #434C5B;
     height: 150px;
 
-}
-
-h2 {
-    font-size: 40px;
-    font-weight: 700;
 }
