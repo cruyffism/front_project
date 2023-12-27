@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    /* 마진 리셋 */
+    padding: 0;
+    /* 패딩 리셋 */
+    box-sizing: border-box;
+    /* 박스 영역은 테두리까지 */
+}
+
+#container {
+    margin: 0 auto;
+    /* 화면 중앙에 배치 */
+    width: 1300px;
+    /* 너비 */
+}
+
+/*-------------------헤더: 로고~ 검색창------------------------ */
+
+header {
+    width: 100%;
+}
+
+#logo {
+    margin-right: 100px;
+}
+
+#navColor {
+    background-color: #2d58b5;
+}
+
+.nav-item {
+    margin-right: 25px;
+
+}
+
+#navMember {
+    margin-right: 80px;
+}
+
+#navMember a {
+    margin: 0px 5px;
+    text-decoration: none;
+    color: white;
+}
+
+#navName>a {
+    color: white;
+}
+
+.menu:after {
+    /* 호버 시 드롭다운 노출 */
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.menu>li {
+    position: relative;
+    float: left;
+    margin-right: 5px;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 0 15px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.menu>li>a:hover {
+    text-decoration: underline;
+}
+
+.menu>li:hover .depth_1 {
+    display: block;
+}
+
+.menu .depth_1 {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.menu .depth_1 a {
+    display: block;
+    padding: 5px;
+}
+
+/*---------------- 로그인 ------------------ */
+#mainStyle {
+    width: 100%;
+    height: 800px;
+}
+
+.loginNotice {
+    text-align: center;
+}
+
+#login_inputID #login_inputPW{
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    padding: 0 20px;
+    width: 30%;
+    display: block;
+}
+
+/*------------ footer-------------- */
+footer {
+    width: 100%;
+    height: 250px;
+    position : relative;
+    transform : translateY(-100%);
+}
+
+.footerSection {
+    position: relative;
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: #313842;
+    height: 100px;
+}
+
+.footerSection li {
+    float: left;
+    width: 305px;
+    list-style: none;
+}
+
+.company_call {
+    display: inline-block;
+    padding: 0 0 0 68px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 36px;
+}
+
+.footerSection1 {
+    list-style: none;
+    float: left;
+    color: white;
+    margin: 0 20px;
+}
+
+
+.link_select_wrap select {
+    position: relative;
+    background: #313842;
+    vertical-align: middle;
+    width: 240px;
+    margin-bottom: 0px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 9px 0 8px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: -1px;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.btn_go {
+    display: inline-block;
+    background: #303740;
+    color: #fff;
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    height: 34px;
+    vertical-align: middle;
+}
+
+.footerSection2 {
+    padding: 28px 20px;
+    background: #434C5B;
+    height: 150px;
+
+}
