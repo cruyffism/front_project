@@ -75,7 +75,7 @@
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
     color: white;
     float: left;
     width: 300px;
@@ -85,18 +85,19 @@
     background-color: #2d58b5 !important;
     line-height: 90px;
     margin: 20px 50px;
+    padding-left: 50px;
 }
 
 .print {
-    background: url(../images/print.png) center right/15% no-repeat;
+    background: url(../images/print.png) right 40px top 20px/20% no-repeat;
 }
 
 .myVideo {
-    background: url(../images/my_video.png) center right/15% no-repeat;
+    background: url(../images/my_video.png) right 40px top 20px/20% no-repeat;
 }
 
 .payment {
-    background: url(../images/payment.png) center right/15% no-repeat;
+    background: url(../images/payment.png) right 40px top 20px/20% no-repeat;
 }
 
 #mainTitle2 {
@@ -202,4 +203,47 @@
     border-radius: 50%;
     border: #ddd;
     display: inline-block;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    padding-top: 80px;
+    color: #111;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .circle a{
+    width: 150px !important;
+    height: 150px;
+    border-radius: 75px;
+    border: 1px solid #ddd;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding-top: 60px;
+    overflow: hidden;
+    color: #111;
+    transition-duration: 90ms;
+    transition-timing-function: ease-in-out;
+} */
+
+.link1{
+    background: url(../images/link1.png) center center no-repeat;
+}
+.link2{
+    background: url(../images/link2.png) center center no-repeat;
+}
+.link3{
+    background: url(../images/link3.png) center center no-repeat;
+}
+.link4{
+    background: url(../images/link4.png) center center no-repeat;
+}
+.link5{
+    background: url(../images/link5.png) center center no-repeat;
+}
+.link6{
+    background: url(../images/link6.png) center center no-repeat;
 }
