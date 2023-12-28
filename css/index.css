@@ -1,16 +1,12 @@
 /*---------------- main ------------------ */
 #mainStyle {
     width: 100%;
-    height: 1072px;
     padding: 0 40px;
-    margin: 70px auto;
+    /* height: 1500px; */
 }
 
 #mainTitle {
     text-align: center;
-}
-
-#mainTitle>h2 {
     font-size: 40px;
     font-weight: 700;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=\, initial-scale=1.0">
@@ -12,15 +13,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="js/common.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js" crossorigin></script>
+    <script src="js/common.js" crossorigin></script>
 </head>
 
 <body>
     <div id="container">
         <!-- -------------------헤더---------------------- -->
-        <header>
-            <div id="header"></div>
+        <div id="header"></div>
+
+        <!----------------------- 메인----------------------- -->
+        <banner>
             <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -59,13 +62,9 @@
                     <i id="icon" class="fas fa-search"></i>
                 </div>
             </div>
-        </header>
-
-        <!----------------------- 메인----------------------- -->
+        </banner>
         <main id="mainStyle">
-            <div id="mainTitle">
-                <h2>주요 서비스</h2>
-            </div>
+            <h2 id="mainTitle">주요 서비스</h2>
             <div id="mainServiceBox">
                 <ul>
                     <li><a class="iconHover doctor" href="#">의료진/진료과 찾기</a></li>
@@ -147,6 +146,7 @@
                     <li><a class="circleText link6" href="#">건강강좌</a></li>
                 </ul>
             </div>
+
         </main>
 
         <!----------------------- 풋터----------------------- -->
