@@ -2,6 +2,7 @@
 /*---------------- 로그인 ------------------ */
 #mainStyle {
     width: 900px;
+    margin: 0 auto;
     padding: 0 40px;
     height: 600px;
 }
@@ -55,7 +56,6 @@
     padding: 0 10px;
     width: 50%;
     display: block;
-    /* margin: 10px; */
     height: 50px;
     text-align: right;
 }
