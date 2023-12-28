@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=\, initial-scale=1.0">
@@ -14,133 +12,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/common.js"></script>
 </head>
 
 <body>
     <div id="container">
         <!-- -------------------헤더---------------------- -->
-        <header>
-            <nav class="navbar navbar-expand-lg" id="navColor">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html" id="logo">
-                        <img src="images/logo.png" alt="logo" class="d-inline-block align-text-top">
-                    </a>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu">
-                            <li class="nav-item dropdown" id="navName">
-                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    나의 진료정보
-                                </a>
-                                <ul class="dropdown-menu depth_1">
-                                    <li><a class="dropdown-item" href="#">예약</a></li>
-                                    <li><a class="dropdown-item" href="#">예약 조회 및 취소</a></li>
-                                    <li><a class="dropdown-item" href="#">증명서/의무기록 발급</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown" id="navName">
-                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    진료안내
-                                </a>
-                                <ul class="dropdown-menu depth_1">
-                                    <li><a class="dropdown-item" href="#">진료과</a></li>
-                                    <li><a class="dropdown-item" href="#">진료지원부서</a></li>
-                                    <li><a class="dropdown-item" href="#">의료진</a></li>
-                                    <li><a class="dropdown-item" href="#">외래진료</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown" id="navName">
-                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    병원소개
-                                </a>
-                                <ul class="dropdown-menu depth_1">
-                                    <li><a class="dropdown-item" href="#">병원소개</a></li>
-                                    <li><a class="dropdown-item" href="#">층별안내</a></li>
-                                    <li><a class="dropdown-item" href="#">병원소식</a></li>
-                                    <li><a class="dropdown-item" href="#">편의시설</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown" id="navName">
-                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    공지사항
-                                </a>
-                                <ul class="dropdown-menu depth_1">
-                                    <li><a class="dropdown-item" href="#">게시판</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown" id="navName">
-                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    건강정보
-                                </a>
-                                <ul class="dropdown-menu depth_1">
-                                    <li><a class="dropdown-item" href="#">건강강좌 일정</a></li>
-                                    <li><a class="dropdown-item" href="#">건강상식</a></li>
-                                    <li><a class="dropdown-item" href="#">건강TV</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown" id="navName">
-                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    고객의 소리
-                                </a>
-                                <ul class="dropdown-menu depth_1">
-                                    <li><a class="dropdown-item" href="#">안내 및 등록</a></li>
-                                    <li><a class="dropdown-item" href="#">문의내역</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <div id="navMember">
-                            <a href="login.html">로그인 </a>
-                            <a> | </a>
-                            <a href="#">회원가입 </a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-
-            <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/banner1.jpg" id="carouselImg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block" id="carouselText">
-                            <h1>Lead the Standard <br> Build The Trust</h1>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/banner2.jpg" id="carouselImg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block" id="carouselText">
-                            <h1>Lead the Standard <br> Build The Trust</h1>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/banner3.jpg" id="carouselImg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block" id="carouselText">
-                            <h1 style="color: #2d58b5;">Lead the Standard <br> Build The Trust</h1>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/banner4.jpg" id="carouselImg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block" id="carouselText">
-                            <h1 style="color: #2d58b5;">Lead the Standard <br> Build The Trust</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- justify-content-center >> 가로 가운데 정렬, align-items-center >> 세로 가운데 정렬  -->
-            <div id="searchBox" class="row justify-content-center align-items-center">
-                <div class="col-auto">
-                    <label for="inputBox" class="col-form-label" style="color: white;">통합검색</label>
-                </div>
-                <div class="col-auto" id="innerSearchBox">
-                    <input type="text" id="inputBox" class="form-control" placeholder="검색어를 입력해주세요">
-                    <i id="icon" class="fas fa-search"></i>
-                </div>
-            </div>
-        </header>
+        <div id="header"></div>
 
         <!----------------------- 메인----------------------- -->
         <main id="mainStyle">
@@ -179,11 +58,15 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <a href=""><img src="images/banner1.jpg" class="d-block w-100" alt="..."></a>
-                                <div id="sub"><p>당뇨병 진단부터 합병증까지1</p></div>
+                                <div id="sub">
+                                    <p>당뇨병 진단부터 합병증까지1</p>
+                                </div>
                             </div>
                             <div class="carousel-item">
                                 <a href=""><img src="images/banner2.jpg" class="d-block w-100" alt="..."></a>
-                                <div id="sub"><p>당뇨병 진단부터 합병증까지2</p></div>
+                                <div id="sub">
+                                    <p>당뇨병 진단부터 합병증까지2</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -200,12 +83,15 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="images/banner1.jpg" class="d-block w-100" alt="...">
-                                <div id="sub"><p>당뇨병 진단부터 합병증까지1</p></div>
+                                <div id="sub">
+                                    <p>당뇨병 진단부터 합병증까지1</p>
+                                </div>
                             </div>
-                            
                             <div class="carousel-item">
                                 <img src="images/banner2.jpg" class="d-block w-100" alt="...">
-                                <div id="sub"><p>당뇨병 진단부터 합병증까지2</p></div>
+                                <div id="sub">
+                                    <p>당뇨병 진단부터 합병증까지2</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -224,117 +110,7 @@
         </main>
 
         <!----------------------- 풋터----------------------- -->
-        <footer>
-            <div class="footerSection">
-                <ul class="footer_inner">
-                    <li>
-                        <div class="company_call">대표전화 : 1588-3369</div>
-                    </li>
-                    <li>
-                        <div class="link_select_wrap">
-                            <select title="특성화센터/진료과" name="link">
-                                <option value="">특성화센터/진료과</option>
-                                <option class="op_cor1" value="https://cancer.snubh.org/index.do">암센터</option>
-                                <option class="op_cor1" value="https://bcni.snubh.org/index.do">
-                                    뇌신경센터</option>
-                                <option class="op_cor1" value="https://www.snubh.org/dh/gc/">
-                                    노인의료센터</option>
-                                <option class="op_cor1" value="https://www.snubh.org/dh/cvc/">
-                                    심장혈관센터</option>
-                                <option class="op_cor1" value="https://www.snubh.org/dh/rc/">폐센터
-                                </option>
-                                <option class="op_cor1" value="https://www.snubh.org/dh/jrc/">
-                                    관절센터</option>
-                            </select>
-                            <input type="button" class="btn_go" value="바로가기">
-
-                        </div>
-                    </li>
-                    <li>
-                        <div class="link_select_wrap">
-                            <select title="협진센터/클리닉" name="link">
-                                <option value="">협진센터/클리닉</option>
-                                <option class="op_cor2" value="https://www.snubh.org/dh/dcd1/">
-                                    간암센터</option>
-                                <option class="op_cor2" value="https://www.snubh.org/dh/gkc">
-                                    감마나이프센터</option>
-                                <option class="op_cor2" value="https://www.snubh.org/dh/dcd2/">
-                                    갑상선암센터</option>
-                            </select>
-                            <input type="button" class="btn_go" value="바로가기">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="link_select_wrap">
-                            <select title="패밀리사이트" name="link">
-                                <option value="">패밀리사이트</option>
-                                <option class="op_cor4" value="http://medicine.snu.ac.kr/">
-                                    서울대학교의과대학</option>
-                                <option class="op_cor4" value="http://www.snuh.org/pub/">서울대학교병원
-                                </option>
-                                <option class="op_cor4" value="https://www.brmh.org/index.do">
-                                    서울특별시 보라매병원</option>
-                                <option class="op_cor4" value="http://healthcare.snuh.org/home.do">서울대학교병원 강남센터
-                                </option>
-                                <option class="op_cor3" value="https://msri.snubh.org/index.do">
-                                    의생명연구원</option>
-                                <option class="op_cor3" value="https://www.snubh.org/dh/en/">
-                                    국제진료센터</option>
-                                <option class="op_cor3" value="https://sbrc.snubh.org/index.do">
-                                    진료협력센터</option>
-                                <option class="op_cor3" value="https://www.snubh.org/dh/mc">공공부문
-                                </option>
-                                <option class="op_cor3" value="https://www.snubh.org/dh/hcd7">
-                                    발전후원회</option>
-                            </select>
-                            <input type="button" class="btn_go" value="바로가기">
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="footerSection2">
-                <ul class="footer_inner2">
-                    <li class="li_1">
-                        <ul class="footer_top_menu">
-                            <li><a>개인정보처리방침&nbsp;|&nbsp;</a></li>
-                            <li><a>환자권리장전&nbsp;|&nbsp;</a></li>
-                            <li><a>고객현장&nbsp;|&nbsp;</a></li>
-                            <li><a>데이터 심의위원회&nbsp;|&nbsp;</a></li>
-                            <li><a>FAQ&nbsp;|&nbsp;</a></li>
-                            <li><a>AUO</a></li>
-                        </ul>
-                        <div class="footer_address">
-                            <span class="com_address">13620 경기도 성남시 분당구 구미로173번길 82</span>
-                        </div>
-                        <div class="copyright">Copyright © 분당서울대학교병원. All Rights Reserved.</div>
-                    </li>
-                    <li class="li_2">
-                        <div class="footer_mark_wrap">
-                            <ul class="footer_mark_list">
-                                <li>
-                                    <img src="images/facebook.png">
-                                </li>
-                                <li>
-                                    <img src="images/instagram.png">
-                                </li>
-                                <li>
-                                    <img src="images/youtube.png">
-                                </li>
-                                <li class="mark1">
-                                    <span>과학기술정보통신부<br>WEB ACCESSIBILITY</span>
-                                </li>
-                                <li class="mark2">
-                                    <span>보건복지부<br> 의료기관 인증</span>
-                                </li>
-                                <li class="mark3">
-                                    <span>미국외 세계최초<br>EMR 7단계 인증(2010년)</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </footer>
+        <div id="footer"></div>
     </div>
 </body>
 
