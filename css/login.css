@@ -1,7 +1,7 @@
 
 /*---------------- 로그인 ------------------ */
 #mainStyle {
-    width: 100%;
+    width: 900px;
     padding: 0 40px;
     height: 600px;
 }
@@ -14,68 +14,6 @@
 #loginWrap {
     display: flex;
 }
-
-#login_inputID {
-    border: 1px solid #d9d9d9;
-    padding: 0 20px;
-    width: 100%;
-    display: block;
-    margin: 10px;
-    height: 50px;
-}
-
-#login_inputPW {
-    border: 1px solid #d9d9d9;
-    padding: 0 20px;
-    width: 100%;
-    display: block;
-    margin: 10px;
-    height: 50px;
-}
-
-#loginBt {
-    border: 1px solid #d9d9d9;
-    color: white;
-    background-color:#2d58b5;
-    padding: 0 20px;
-    width: 100%;
-    display: block;
-    margin: 10px;
-    height: 50px;
-}
-
-#bts {
-    display: flex;
-}
-
-#naverBt {
-    border: 1px solid #d9d9d9;
-    background-color: #00ad00 !important;
-    box-sizing: border-box;
-    padding: 0 10px;
-    width: 50%;
-    display: block;
-    margin: 10px;
-    height: 50px;
-    background: url(../images/naver.png) center left 25px/10% no-repeat;
-    text-align: right;
-    color: white;
-}
-
-#kakaoBt {
-    border: 1px solid #d9d9d9;
-    background-color: #f9e000 !important;
-    box-sizing: border-box;
-    padding: 0 10px;
-    width: 50%;
-    display: block;
-    margin: 10px;
-    height: 50px;
-    background: url(../images/kakao.png) center left 25px/12% no-repeat;
-    text-align: right;
-    color: #371c1d;
-}
-
 #leftBox {
     width: 50%;
     margin-right: 40px;
@@ -84,3 +22,58 @@
 #rightBox {
     width: 50%;
 }
+#leftBox div {
+    border: 1px solid #d9d9d9;
+    padding: 0 20px;
+    width: 100%;
+    display: block;
+    margin: 10px;
+    height: 50px;
+}
+/* #login_inputID {
+    
+}
+
+#login_inputPW {
+    
+} */
+
+#loginBt {
+    
+    color: white;
+    background-color:#2d58b5;
+    
+}
+
+#bts {
+    padding: 0;
+}
+
+#bts input {
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    padding: 0 10px;
+    width: 50%;
+    display: block;
+    /* margin: 10px; */
+    height: 50px;
+    text-align: right;
+}
+#naverBt {
+    background-color: #00ad00 !important;
+    background: url(../images/naver.png) center left 25px/10% no-repeat;
+    color: white;
+    float: left;
+}
+
+#kakaoBt {
+    
+    background-color: #f9e000 !important;
+    
+    background: url(../images/kakao.png) center left 25px/12% no-repeat;
+    
+    color: #371c1d;
+    float: right;
+}
+
+
