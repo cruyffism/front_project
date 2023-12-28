@@ -88,15 +88,15 @@
 }
 
 .print {
-    background: url(../images/print.png) right 40px top 20px/20% no-repeat;
+    background: url(../images/print.png) right 20px top 20px/20% no-repeat;
 }
 
 .myVideo {
-    background: url(../images/my_video.png) right 40px top 20px/20% no-repeat;
+    background: url(../images/my_video.png) right 20px top 20px/20% no-repeat;
 }
 
 .payment {
-    background: url(../images/payment.png) right 40px top 20px/20% no-repeat;
+    background: url(../images/payment.png) right 20px top 20px/20% no-repeat;
 }
 
 #mainTitle2 {

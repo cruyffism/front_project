@@ -1,0 +1,37 @@
+#mainStyle {
+    width: 1000px;
+    margin: 0 auto;
+    height: 600px;
+}
+
+.signUpNotice {
+    text-align: center;
+    margin: 70px;
+}
+
+.signUpNotice>h2 {
+    margin: 30px;
+}
+.signUpNotice>h5 {
+    margin: 20px;
+}
+
+#mainBox {
+    display: flex;
+}
+
+.card {
+    margin: 0 23px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card>img {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+}
+
+
