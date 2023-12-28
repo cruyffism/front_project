@@ -1,8 +1,8 @@
 /*---------------- main ------------------ */
 #mainStyle {
-    width: 100%;
-    padding: 0 40px;
-    /* height: 1500px; */
+    width: 1220px;
+    margin: 0 auto;
+    height: 1072px;
 }
 
 #mainTitle {
