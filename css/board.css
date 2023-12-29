@@ -1,0 +1,66 @@
+#mainStyle {
+  width: 1000px;
+  margin: 0 auto;
+  height: 700px;
+}
+
+.boardTitle {
+  text-align: center;
+  margin: 70px;
+}
+
+.linkWrap {
+  margin: 0 200px 30px  200px;
+}
+
+.boardTitle2,
+.input_box {
+  position: relative;
+  background: white;
+  vertical-align: middle;
+  width: 250px;
+  margin-bottom: 0px;
+  border: 0;
+  border-bottom: 1px solid black;
+  padding: 9px 0 8px;
+  color: black;
+  text-align: left;
+  letter-spacing: -1px;
+  font-size: 20px;
+}
+
+.searchBox {
+  display: inline-block;
+  position: relative;
+  width: 250px;
+  margin-left: 30px;
+}
+
+.input_box {
+  width: 350px;
+}
+
+.input_box::placeholder {
+  text-align: left;
+}
+
+#icon {
+  position: absolute;
+  width: 27px;
+  top: 6px;
+  right: 12px;
+  margin: 0;
+  cursor: pointer;
+}
+
+hr {
+  width: 100%;
+}
+
+.centerText {
+  text-align: center;
+}
+
+tr > td {
+  text-align: center;
+}
