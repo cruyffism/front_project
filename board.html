@@ -35,71 +35,90 @@
                 </select>
                 <div class="searchBox">
                     <input type="text" class="input_box" placeholder="검색어를 입력하세요.">
-                    <i id="icon" class="fas fa-search"></i>
+                    <i id="icon2" class="fas fa-search"></i>
                 </div>
             </div>
-            <hr>
             <div>
-                <table class="table">
+                <table class="table table-hover">
                     <thead>
-                        <tr>
-                            <th scope="col">NO.</th>
-                            <th scope="col" class="centerText" colspan="2">제목</th>
-                            <th scope="col" class="centerText">등록일</th>
-                            <th scope="col" class="centerText">조회수</th>
+                        <tr class="th_line">
+                            <th scope="col" class="col1">NO.</th>
+                            <th scope="col" class="col2">제목</th>
+                            <th scope="col" class="col3">등록일</th>
+                            <th scope="col" class="col4">조회수</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">공지</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@mdo</td>
-                            <td>@mdo</td>
+                            <td class="col1"><button class="noticeBtn">공지</button></td>
+                            <td class="col2 point">23년 10월 2일(월) 임시공휴일 정상진료 안내</td>
+                            <td class="col3">2023-12-21</td>
+                            <td class="col4">125</td>
                         </tr>
                         <tr>
-                            <th scope="row">공지</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@mdo</td>
-                            <td>@mdo</td>
+                            <td class="col1"><button class="noticeBtn">공지</button></td>
+                            <td class="col2 point">홈페이지 비밀번호를 안전하게 관리하는 방법 안내</td>
+                            <td class="col3">2023-12-15</td>
+                            <td class="col4">89</td>
                         </tr>
                         <tr>
-                            <th scope="row">공지</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@mdo</td>
-                            <td>@mdo</td>
+                            <td class="col1"><button class="noticeBtn">공지</button></td>
+                            <td class="col2 point">홈페이지 서비스 이용 가이드</td>
+                            <td class="col3">2023-12-11</td>
+                            <td class="col4">429</td>
                         </tr>
                         <tr>
-                            <th scope="row">45</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@mdo</td>
-                            <td>@mdo</td>
+                            <td class="col1">45</td>
+                            <td class="col2 point">1, 2월 유튜브 라이브 건강강좌</td>
+                            <td class="col3">2023-12-01</td>
+                            <td class="col4">326</td>
                         </tr>
                         <tr>
-                            <th scope="row">44</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@mdo</td>
-                            <td>@mdo</td>
+                            <td class="col1">44</td>
+                            <td class="col2 point">2023년 12월 의료정보시스템 정기점검 안내</td>
+                            <td class="col3">2023-11-13</td>
+                            <td class="col4">187</td>
                         </tr>
                         <tr>
-                            <th scope="row">43</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@mdo</td>
-                            <td>@mdo</td>
+                            <td class="col1">43</td>
+                            <td class="col2 point">12월 유튜브 라이브 건강강좌</td>
+                            <td class="col3">2023-10-26</td>
+                            <td class="col4">123</td>
                         </tr>
                         <tr>
-                            <th scope="row">42</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@mdo</td>
-                            <td>@mdo</td>
+                            <td class="col1">42</td>
+                            <td class="col2 point">개인정보 분쟁조정제도 안내</td>
+                            <td class="col3">2023-10-19</td>
+                            <td class="col4">521</td>
                         </tr>
-                        <tr>
-                            <th scope="row">41</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@mdo</td>
-                            <td>@mdo</td>
+                        <tr class="tr_line">
+                            <td class="col1">41</td>
+                            <td class="col2 point">제9회 젊은의학자를 위한 연구워크숍(23.8.26, 분당서울대병원 헬스케어 혁신파크 4층 미래홀)</td>
+                            <td class="col3">2023-09-15</td>
+                            <td class="col4">67</td>
                         </tr>
                     </tbody>
                 </table>
+
+                <div id="page_wrap">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination justify-content-center">
+                          <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                              <span aria-hidden="true">&laquo;</span>
+                            </a>
+                          </li>
+                          <li class="page-item"><a class="page-link" href="#">1</a></li>
+                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                          <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                              <span aria-hidden="true">&raquo;</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </nav>  
+                </div>
             </div>
         </main>
 
