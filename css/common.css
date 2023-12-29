@@ -111,8 +111,8 @@ header {
     height: 55px;
 }
 
-#innerSearchBox {
-    /* 검색창 안에 돋보기 넣기 */
+/* 돋보기 태그 넣기 */
+#innerSearchBox { 
     position: relative;
     width: 300px;
 }
@@ -128,7 +128,7 @@ header {
 #icon {
     position: absolute;
     width: 27px;
-    top: 10px;
+    top: 6px;
     right: 12px;
     margin: 0;
     cursor: pointer;
