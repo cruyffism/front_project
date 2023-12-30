@@ -1,0 +1,205 @@
+/*---------------- banner ------------------ */
+#searchBox {
+    width: 100%;
+    background-color:#f5f5f5;
+    margin: 0 0 1.5rem 0;
+    height: 90px;
+    border: 1px solid #d6d6d6;
+}
+
+.searchText{
+    font-size: 20px;
+    color: #2d58b5;
+    font-weight: bold;
+}
+
+/* 돋보기 태그 넣기 */
+#innerSearchBox { 
+    position: relative;
+}
+
+#inputBox {
+    width: 400px;
+    height: 50px;
+    border: 3px solid #2d58b5;
+    padding: 10px;
+}
+
+#inputBox:focus{
+    outline:none;
+  }
+
+#inputBox::placeholder {
+    text-align: center;
+}
+
+#icon {
+    position: absolute;
+    top: 20px;
+    left: 332px;
+    margin: 0;
+    cursor: pointer;
+}
+
+/* main */
+
+#mainStyle {
+    width: 1220px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+#banner>img {
+    width: 100%;
+}
+
+#doctorTitle {
+    text-align: center;
+    margin: 50px 0;
+}
+
+#sideBar>h3 {
+    text-align: center;
+    height: 100px;
+    line-height: 4em;
+    font-weight: bold;
+    color: #2d58b5;
+}
+
+
+#sideBar>ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+#sideBar>ul>li {
+    text-align: right;
+    border-bottom: 1px solid #d6d6d6;
+    font-size: 20px;
+    height: 70px;
+    line-height: 3.5em;
+}
+
+#sideBar>ul>li>a {
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+#sideBar>ul>li a:hover{
+    text-decoration: underline;
+}
+
+#sideBar>ul>li:first-child {
+    border-top: 1px solid #d6d6d6;
+}
+
+#sideBar>ul>li:last-child {
+    border: 0;
+}
+
+#sideBar {
+    position: relative;
+    float: left;
+    width: 250px;
+    height: 600px;
+    border: 1px solid #d6d6d6;
+}
+#sideBar>ul>li .active{
+    background-color: #2d58b5;
+    color: white;
+}
+
+#doctorBox {
+    display: flex;
+}
+
+#mainBox {
+    margin-left: 40px;
+    width: 100%;
+}
+
+#findDt {
+    margin-top: 50px;
+}
+
+#findDtText>h3 {
+ font-weight: bold;
+ color: #2d58b5;
+ margin-right: 30px;
+}
+
+#findDtText>p {
+    margin-right: 180px;
+    line-height: 3em;
+    font-weight: bold;
+}
+
+#findDtText>button {
+    margin-right: 3px;
+    padding: 9px 10px;
+    border: 1px solid #464646;
+    background: #555;
+    font-size: 14px;
+    line-height: 1;
+    color: #fff;
+    font-weight: 500;
+    height: 100%;
+}
+
+#findTab> ul > li {  
+    border: 1px solid #d6d6d6;
+    border-bottom: 0;
+    display: block; 
+}
+
+
+#findTab> ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+#findTab> ul > li > a:hover {
+    text-decoration: underline;
+}
+
+#findTab> ul > li .active {
+    background-color: #2d58b5;
+    color: white;
+}
+
+#findDtText {
+    display: flex;
+}
+
+#tabBox1 {
+    display: flex;
+    border: 1px solid #d6d6d6;
+    background-color:#f5f5f5;
+    height: 300px;
+}
+
+#tabBox1 > ul {
+    margin: 45px auto;
+}
+
+#tabBox1 > ul > li {
+    height: 60px;
+}
+
+#tabBox1 > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+#tabBox1 > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+#dtNotice {
+    margin-top: 30px;
+    font-weight: bold;
+    color: #555;
+}

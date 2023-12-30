@@ -95,45 +95,6 @@ header {
     padding: 5px;
 }
 
-#carouselText>h1 {
-    font-weight: 900;
-    margin-bottom: 40px;
-}
-
-#carouselImg {
-    height: 450px;
-}
-
-#searchBox {
-    width: 100%;
-    background-color: #2d58b5;
-    margin: 0 0 1.5rem 0;
-    height: 55px;
-}
-
-/* 돋보기 태그 넣기 */
-#innerSearchBox { 
-    position: relative;
-    width: 300px;
-}
-
-#inputBox {
-    width: 100%;
-}
-
-#inputBox::placeholder {
-    text-align: center;
-}
-
-#icon {
-    position: absolute;
-    width: 27px;
-    top: 10px;
-    right: 12px;
-    margin: 0;
-    cursor: pointer;
-}
-
 /*------------ footer-------------- */
 footer {
     width: 100%;
