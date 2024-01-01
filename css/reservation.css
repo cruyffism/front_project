@@ -7,7 +7,7 @@
 
 #mainStyle {
     width: 1220px;
-    height: 1100px;
+    height: 1000px;
     margin: 0 auto;
 }
 
@@ -120,4 +120,8 @@ ul {
     line-height: 3em;
     margin-bottom: 30px;
     
+}
+
+#callReservation > h3 {
+    margin-bottom: 30px;
 }
