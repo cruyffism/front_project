@@ -1,4 +1,20 @@
 /*---------------- banner ------------------ */
+#banner>img {
+    width: 100%;
+}
+
+/* main */
+
+#mainStyle {
+    width: 1220px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+#doctorTitle {
+    text-align: center;
+    margin: 50px 0;
+}
 #searchBox {
     width: 100%;
     background-color:#f5f5f5;
@@ -39,23 +55,6 @@
     left: 332px;
     margin: 0;
     cursor: pointer;
-}
-
-/* main */
-
-#mainStyle {
-    width: 1220px;
-    height: 800px;
-    margin: 0 auto;
-}
-
-#banner>img {
-    width: 100%;
-}
-
-#doctorTitle {
-    text-align: center;
-    margin: 50px 0;
 }
 
 #sideBar>h3 {

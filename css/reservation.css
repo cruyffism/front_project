@@ -1,0 +1,123 @@
+/*---------------- banner ------------------ */
+#banner>img {
+    width: 100%;
+}
+
+/* main */
+
+#mainStyle {
+    width: 1220px;
+    height: 1100px;
+    margin: 0 auto;
+}
+
+#reservationTitle {
+    text-align: center;
+    margin: 50px 0;
+}
+
+#reservation1 {
+    display: flex;
+}
+
+#content1 {
+    width: 70%;
+}
+
+#content1>h3 {
+    margin-bottom: 30px;
+}
+
+#content1>h4 {
+    margin-bottom: 30px;
+}
+
+#content1>ul>li {
+    font-size: 20px;
+}
+
+
+ul {
+    list-style-image: url("../images/check.png");
+
+}
+
+#btn1 {
+    width: 30%;
+    margin-top: 50px;
+}
+
+#btn1>button {
+    border: 1px solid #d9d9d9;
+    padding: 0 20px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+    font-size: 20px;
+}
+
+#contentBox1 {
+    display: flex;
+}
+
+#content2 {
+    width: 70%;
+}
+
+#content2>h3 {
+    margin-bottom: 30px;
+}
+
+#content2>h4 {
+    margin-bottom: 30px;
+}
+
+#content2>ul>li {
+    font-size: 20px;
+}
+
+#btn2 {
+    width: 30%;
+    margin-top: 80px;
+}
+
+#btn2>button {
+    border: 1px solid #d9d9d9;
+    padding: 0 20px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+    font-size: 20px;
+}
+
+#contentBox2 {
+    display: flex;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#circle1 {
+    width: 406px;
+}
+
+#circle2 {
+    width: 406px;
+}
+
+#circle3 {
+    width: 406px;
+}
+
+.num {
+    border: 1px solid #d9d9d9;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    line-height: 3em;
+    margin-bottom: 30px;
+    
+}
