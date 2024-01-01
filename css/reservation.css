@@ -26,6 +26,7 @@
 
 #content1>h3 {
     margin-bottom: 30px;
+    font-weight: bold;
 }
 
 #content1>h4 {
@@ -67,6 +68,7 @@ ul {
 
 #content2>h3 {
     margin-bottom: 30px;
+    font-weight: bold;
 }
 
 #content2>h4 {
@@ -113,7 +115,8 @@ ul {
 .num {
     border: 1px solid #d9d9d9;
     border-radius: 50%;
-    background-color: #d9d9d9;
+    background-color: #2d58b5;
+    color: white;
     width: 50px;
     height: 50px;
     margin: 0 auto;
@@ -122,6 +125,15 @@ ul {
     
 }
 
+.reservationNt {
+    color: #2d58b5;
+}
+
 #callReservation > h3 {
     margin-bottom: 30px;
+    font-weight: bold;
+}
+
+#callReservation > ul > li {
+    font-size: 20px;
 }
