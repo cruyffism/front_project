@@ -58,7 +58,6 @@ header {
     display: block;
     content: '';
     clear: both;
-    /* background-color : #2d58b5; opacity : 0.5; */
 }
 
 .menu>li {
@@ -93,8 +92,13 @@ header {
 }
 
 #drMu {
-     background-color : #2d58b5; opacity : 100%; 
+     background-color : white; opacity : 60%; 
      border-radius: 0px;
+}
+
+#drMu>li>a:hover {
+    background-color : #2d58b5; opacity : 60%;
+    color: white;
 }
 
 
