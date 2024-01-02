@@ -105,24 +105,57 @@
             </header>
         </div>
 
-        <!----------------------- 회원가입 폼 화면----------------------- -->
+        <!----------------------- 회원가입 폼 화면---------------ㅉ-------- -->
         <main id="mainStyle">
-            <div id="accountForm">
-                <h1 class="text1">회원가입</h1>
-                <p class="text1">분당서울대학교병원 통합회원가입을 환영합니다.</p>
-
-                <div id="account">
-                    <label for="id">아이디<br><input type="text" class="box" id="id"></label><br>
-                    <label for="pw1">비밀번호<br><input type="text" class="box" id="pw1"></label><br>
-                    <label for="pw2">비밀번호 확인<br><input type="text" class="box" id="pw2"></label><br>
-                    <label for="name">이름<br><input type="text" class="box" id="name"></label><br>
-                    <label for="phoneNumber">전화번호<br><input type="text" class="box" id="phoneNumber"></label><br>
-                    <label for="email">이메일 주소<br><input type="text" class="box" id="email"></label><br>
-                </div>
-
-                <input type="submit" class="register" id="button" value="회원가입">
+            <h1>회원가입</h1>
+            <hr>
+            <div id="signUpFormTitle">
+                <h4>회원 정보 입력</h4>
+                <p>* 표시는 필수 입력 사항입니다.</p>
             </div>
-
+            <table>
+                <tr>
+                    <td>이름</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>아이디</td>
+                    <td><input type="text"></td>
+                    <td><button type="button">중복 확인</button></td>
+                    <td>아이디는 6~12자로 입력해주세요.</td>
+                </tr>
+                <tr>
+                    <td>비밀번호</td>
+                    <td><input type="password"></td>
+                    <td>영문, 숫자 특수문자(!,@,#,$,%,&,* 사용가능)조합 10~20자(맨 앞글자 특수문자 제외)</td>
+                </tr>
+                <tr>
+                    <td>비밀번호 확인</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td>생년원일</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>이메일 주소</td>
+                    <td><input type="text">@<input type="text"><select><option>선택</option></select></td>
+                    <td>인터넷 진료 예약 등 이용하시는 온라인 서비스에 대한 접수 내역을 이메일로 발송 드립니다.</td>
+                </tr>
+                <tr>
+                    <td>휴대폰번호</td>
+                    <td><select><option>선택</option></select>-<input type="text">-<input type="text"></td>
+                    <td>인터넷 진료 예약 등 이용하시는 온라인 서비스에 대한 접수 내역을 SMS로 발송 드립니다.</td>
+                </tr>
+                <tr>
+                    <td>뉴스레터 수신</td>
+                    <td><input type="radio"><input type="radio"></td>
+                </tr>
+            </table>
+            <div>
+                <button type="button">가입 완료하기</button>
+                <button type="button">취소</button>
+            </div>
         </main>
 
         <!----------------------- 풋터----------------------- -->
