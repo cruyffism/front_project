@@ -21,7 +21,7 @@ header {
     height: 55px;
 }
 
-#carouselExampleAutoplaying{
+#carouselExampleAutoplaying {
     height: 450px;
 }
 
@@ -58,6 +58,7 @@ header {
     display: block;
     content: '';
     clear: both;
+    /* background-color : #2d58b5; opacity : 0.5; */
 }
 
 .menu>li {
@@ -73,13 +74,9 @@ header {
     line-height: 40px;
 }
 
-.menu>li>a:hover {
-    text-decoration: underline;
-}
-
 .menu>li:hover .depth_1 {
     display: block;
-    width:180px;
+    width: 180px;
 }
 
 .menu .depth_1 {
@@ -87,12 +84,22 @@ header {
     position: absolute;
     left: 0;
     right: 0;
-    text-align: center;
+    text-align: left;
 }
 
 .menu .depth_1 a {
     display: block;
     padding: 5px;
+}
+
+#drMu {
+     background-color : #2d58b5; opacity : 100%; 
+     border-radius: 0px;
+}
+
+
+#drIt {
+    font-weight: bold;
 }
 
 /*------------ footer-------------- */
@@ -148,7 +155,7 @@ footer {
     margin-bottom: 0px;
     display: inline-block;
     border: 0;
-    border-bottom: 1px solid rgba(255,255,255,0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     padding: 9px 0 8px;
     color: #fff;
     text-align: center;
@@ -261,18 +268,18 @@ footer {
     height: 80%;
 }
 
-.mark1{
+.mark1 {
     background-image: url(../images/mark1.png);
     padding-left: 50px;
 }
 
-.mark2{
+.mark2 {
     background-image: url(../images/mark2.png);
     padding-left: 50px;
     margin-right: 24px;
 }
 
-.mark3{
+.mark3 {
     background-image: url(../images/mark3.png);
     padding-left: 50px;
 }

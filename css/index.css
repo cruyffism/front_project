@@ -103,7 +103,6 @@
 #mainServiceButton {
     margin: 0 auto;
     width: 100%;
-    /* margin-top: 40px; */
     overflow: hidden;
 }
 
@@ -211,23 +210,18 @@
     margin-right: 10px;
 }
 
-.arr span {
+/* .arr span {
     position: relative;
 }
 
 .arr span::after {
     content: '';
-    width: 20px;
-    /* 사이즈 */
+    width: 20px; 
     height: 20px;
-    /* 사이즈 */
     border-top: 3px solid #121212;
-    /* 선 두께 */
     border-right: 3px solid #121212;
-    /* 선 두께 */
     display: inline-block;
     transform: rotate(225deg);
-    /* 각도 */
     position: absolute;
     right: 220px;
     top: 70px;
@@ -240,20 +234,15 @@
 .arr2 span::after {
     content: '';
     width: 20px;
-    /* 사이즈 */
     height: 20px;
-    /* 사이즈 */
     border-top: 3px solid #121212;
-    /* 선 두께 */
     border-right: 3px solid #121212;
-    /* 선 두께 */
     display: inline-block;
     transform: rotate(45deg);
-    /* 각도 */
     position: absolute;
     left: 220px;
     top: 70px;
-}
+} */
 
 #circleBox {
     margin: 30px auto;
