@@ -84,26 +84,19 @@ header {
     left: 0;
     right: 0;
     text-align: left;
+    opacity : 70%; 
+    border-radius: 0px;
 }
 
 .menu .depth_1 a {
     display: block;
     padding: 5px;
+    font-weight: bold;
 }
 
-#drMu {
-     background-color : white; opacity : 60%; 
-     border-radius: 0px;
-}
-
-#drMu>li>a:hover {
+.menu .depth_1 a:hover {
     background-color : #2d58b5; opacity : 60%;
     color: white;
-}
-
-
-#drIt {
-    font-weight: bold;
 }
 
 /*------------ footer-------------- */
@@ -223,7 +216,7 @@ footer {
 
 .footer_top_menu>li>a {
     display: block;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 500;
     color: #fff;
     line-height: 24px;
