@@ -1,7 +1,7 @@
 #mainStyle {
   width: 1000px;
   margin: 0 auto;
-  height: 710px;
+  height: 800px;
 }
 
 /*회원가입 제목*/
@@ -15,10 +15,14 @@ hr {
   margin-top: 40px;
 }
 
+#signUpBox {
+  width: 100%;
+}
+
 .section {
   width: 100%;
-  border-top: 2px solid #444444;
-  border-bottom: 2px solid #444444;
+  border-top: 1.5px solid #444444;
+  border-bottom: 1.5px solid #444444;
   border-right: none;
   border-left: none;
   margin: 1rem 0;
@@ -27,8 +31,8 @@ hr {
 
 td{
   font-weight: bold;
-  margin: 0.5rem 0;  /* 0.5rem = 8px */
-  padding: 0.5rem 0; /* 0.5rem = 8px */
+  /* margin: 0.5rem 0;  
+  padding: 0.5rem 0;  */
 }
 
 #info1 {
@@ -40,12 +44,8 @@ td{
 #infobox1 {
   padding-left: 30px;
   width: 85%;
+  background-color: #f7f9fb;
 }
-
-/* #commuter {
-  margin: 1.5rem 0;  
-  padding: 1.5rem 0; 
-} */
 
 #signUpFormTitle {
   margin-top: 40px; 
@@ -54,6 +54,16 @@ td{
 
 #signUpFormTitle > p {
   margin-left: 614px;
+}
+
+
+/* 중복 확인 버튼 */
+#buttonA {
+  background-color: #2d58b5;
+  border: none;
+  color: white;
+  height: 30px;
+  padding: 3px;
 }
 
 
@@ -66,20 +76,33 @@ td{
   margin-top: 30px;
 }
 
-#buttonA {
+#buttonB {
 border-color: #E77502;
 width: 120px;
 height: 40px;
 size: 40px;
 background-color: #E77502;
 color: white;
+border: none;
 }
 
-#buttonB {
+#buttonC {
 border-color: #E77502;
 width: 80px;
 height: 40px;
 size: 40px;
 background-color: #E77502;
 color: white;
+border: none;
+}
+
+/* option버튼 */
+select {
+
+  width: 80px;
+}
+
+/* 뉴스레터 checkButton버튼 */
+#checkButton {
+   width: 20px; 
 }

@@ -123,11 +123,11 @@
                 </tr>
                 <tr>
                     <td id="info1"><span style="color: red;">*</span> 아이디</td>
-                    <td id="infobox1"><input type="text"> <button type="button">중복 확인</button> 아이디는 6~12자로 입력해주세요.</td>
+                    <td id="infobox1"><input type="text">  <button type="button" id="buttonA">중복 확인</button> ※ 아이디는 6~12자로 입력해주세요.</td>
                 </tr>
                 <tr>
                     <td id="info1"><span style="color: red;">*</span> 비밀번호</td>
-                    <td id="infobox1"><input type="password"> 영문, 숫자 특수문자(!,@,#,$,%,&,* 사용가능)조합 10~20자(맨 앞글자 특수문자 제외)</td>
+                    <td id="infobox1"><input type="password"> ※ 영문, 숫자 특수문자(!,@,#,$,%,&,* 사용가능)조합 10~20자(맨 앞글자 특수문자 제외)</td>
                 </tr>
                 <tr>
                     <td id="info1"><span style="color: red;">*</span>  비밀번호 확인</td>
@@ -138,24 +138,32 @@
                     <td id="infobox1"><input type="date"></td>
                 </tr>
                 <tr>
-                    <td id="info1" id="commuter"><span style="color: red;">*</span>  이메일 주소</td>
-                    <td id="infobox1"><input type="text"> @ <input type="text"> <select><option>선택</option></select></td>
+                    <td id="info1"><span style="color: red;">*</span>  이메일 주소</td>
+                    <td id="infobox1"><input type="text"> @ <input type="text"> <select><option>선택</option><option>naver.com</option><option>daum.net</option><option>google.com</option></select></td>
                 </tr>
                 <tr>
-                    <td id="info1" id="commuter"><span style="color: red;">*</span>  휴대폰번호</td>
-                    <td id="infobox1"><select><option>선택</option></select> - <input type="text"> - <input type="text"></td>
+                    <td id="info1"></td>
+                    <td id="infobox1">※ 인터넷 진료 예약 등 이용하시는 온라인 서비스에 대한 접수 내역을 이메일로 발송해 드립니다.</td>
                 </tr>
                 <tr>
-                    <td id="info1" id="commuter"><span style="color: red;">*</span>  뉴스레터 수신</td>
-                    <td id="infobox1"><input type="radio"><input type="radio"></td>
+                    <td id="info1"><span style="color: red;">*</span>  휴대폰번호</td>
+                    <td id="infobox1"><select><option>선택</option><option>010</option><option>011</option></select> - <input type="text"> - <input type="text"></td>
+                </tr>
+                <tr>
+                    <td id="info1"></td>
+                    <td id="infobox1">※ 인터넷 진료 예약 등 이용하시는 온라인 서비스에 대한 접수 내역을 SMS로 발송해 드립니다.</td>
+                </tr>
+                <tr>
+                    <td id="info1"><span style="color: red;">*</span>  뉴스레터 수신</td>
+                    <td id="infobox1">동의<input id="checkButton" name = "check" type="radio" value="동의">  비동의<input id="checkButton" name = "check" type="radio" value="비동의"></td>
                 </tr>
                 </tr>
             </table>
             </div>
 
             <div id="twoButton">
-                <button type="button" id="buttonA">가입하기</button>
-                <button type="button" id="buttonB">취소</button>
+                <button type="button" id="buttonB">가입하기</button>
+                <button type="button" id="buttonC">취소</button>
             </div>
         </main>
 
